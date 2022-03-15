@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-02-17 18:46:11 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/mnt/d/Research/ITSC%202022/SimCal/dataset/Corridor/testbed.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/mnt/d/Research/ITSC%202022/SimCal/dataset/Corridor/testbed.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/mnt/d/Research/ITSC%202022/SimCal/dataset/Corridor/testbed_detector.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e1Detector id="Broad_USD1-1-WB" lane="Market_to_Broad_2" pos="55.76" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD1-2-EB" lane="Chestnut_to_Broad_2" pos="66.49" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD2-1-WB" lane="Market_to_Broad_1" pos="55.75" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD2-2-WB" lane="Market_to_Broad_0" pos="55.75" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD2-3-EB" lane="Chestnut_to_Broad_1" pos="66.48" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD2-4-EB" lane="Chestnut_to_Broad_0" pos="66.46" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD3-1-NB" lane="N_to_Broad_2" pos="73.19" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD3-2-SB" lane="S_to_Broad_2" pos="88.12" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD4-1-NB" lane="N_to_Broad_1" pos="73.20" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD4-2-NB" lane="N_to_Broad_0" pos="73.20" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD4-3-SB" lane="S_to_Broad_1" pos="88.10" freq="300.00" file="NUL"/>
+    <e1Detector id="Broad_USD4-4-SB" lane="S_to_Broad_0" pos="88.08" freq="300.00" file="NUL"/>
+    <e1Detector id="Central_USD1-1" lane="W_to_Central_1" pos="200.15" freq="300.00" file="NUL"/>
+    <e1Detector id="Central_USD2-1" lane="Magnolia_to_Central_0" pos="382.30" freq="300.00" file="NUL"/>
+    <e1Detector id="Central_USD3-1-EB" lane="S_to_Central_1" pos="131.92" freq="300.00" file="NUL"/>
+    <e1Detector id="Central_USD3-2-NB" lane="N_to_Central_1" pos="117.57" freq="300.00" file="NUL"/>
+    <e1Detector id="Central_USD4-1-EB" lane="S_to_Central_0" pos="131.97" freq="300.00" file="NUL"/>
+    <e1Detector id="Central_USD4-2-NB" lane="N_to_Central_0" pos="117.58" freq="300.00" file="NUL"/>
+    <e1Detector id="Central_USD5-1" lane="Magnolia_to_Central_1" pos="382.33" freq="300.00" file="NUL"/>
+    <e1Detector id="Central_USD6-1" lane="W_to_Central_0" pos="200.15" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD1-1-EB" lane="E_to_Chestnut_3" pos="110.31" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD1-2-WB" lane="Broad_to_Chestnut_3" pos="67.29" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD2-1-EB" lane="E_to_Chestnut_2" pos="110.32" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD2-2-EB" lane="E_to_Chestnut_1" pos="110.30" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD2-3-EB" lane="E_to_Chestnut_0" pos="110.25" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD2-4-WB" lane="Broad_to_Chestnut_2" pos="67.33" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD2-5-WB" lane="Broad_to_Chestnut_1" pos="67.38" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD2-6-WB" lane="Broad_to_Chestnut_0" pos="67.42" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD3-1-NB" lane="N_to_Chestnut_2" pos="87.03" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD4-1-SB" lane="S_to_Chestnut_1" pos="87.31" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD4-2-SB" lane="S_to_Chestnut_0" pos="87.31" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD4-3-NB" lane="N_to_Chestnut_1" pos="87.02" freq="300.00" file="NUL"/>
+    <e1Detector id="Chestnut_USD4-4-NB" lane="N_to_Chestnut_0" pos="86.78" freq="300.00" file="NUL"/>
+    <e1Detector id="Douglas_USD1-1" lane="Houston_to_Douglas_1" pos="237.26" freq="300.00" file="NUL"/>
+    <e1Detector id="Douglas_USD1-2" lane="Houston_to_Douglas_0" pos="237.20" freq="300.00" file="NUL"/>
+    <e1Detector id="Douglas_USD2-1" lane="Peeples_to_Douglas_1" pos="377.68" freq="300.00" file="NUL"/>
+    <e1Detector id="Douglas_USD2-2" lane="Peeples_to_Douglas_0" pos="377.71" freq="300.00" file="NUL"/>
+    <e1Detector id="Douglas_USD4-1-NB" lane="N_to_Douglas_0" pos="111.82" freq="300.00" file="NUL"/>
+    <e1Detector id="Douglas_USD4-2-SB" lane="S_to_Douglas_0" pos="148.20" freq="300.00" file="NUL"/>
+    <e1Detector id="Georgia_USD1-1-EB" lane="Market_to_Georgia_2" pos="65.35" freq="300.00" file="NUL"/>
+    <e1Detector id="Georgia_USD2-1-WB" lane="Lindsay_to_Georgia_1" pos="110.77" freq="300.00" file="NUL"/>
+    <e1Detector id="Georgia_USD2-2-WB" lane="Lindsay_to_Georgia_0" pos="110.81" freq="300.00" file="NUL"/>
+    <e1Detector id="Georgia_USD2-3-EB" lane="Market_to_Georgia_1" pos="65.36" freq="300.00" file="NUL"/>
+    <e1Detector id="Georgia_USD2-4-EB" lane="Market_to_Georgia_0" pos="65.31" freq="300.00" file="NUL"/>
+    <e1Detector id="Georgia_USD4-1-NB" lane="N_to_Georgia_0" pos="102.37" freq="300.00" file="NUL"/>
+    <e1Detector id="Georgia_USD4-2-SB" lane="S_to_Georgia_0" pos="100.65" freq="300.00" file="NUL"/>
+    <e1Detector id="Georgia_USD4-3-SB" lane="S_to_Georgia_1" pos="100.63" freq="300.00" file="NUL"/>
+    <e1Detector id="Houston_USD2-1-WB" lane="Douglas_to_Houston_1" pos="241.86" freq="300.00" file="NUL"/>
+    <e1Detector id="Houston_USD2-2-WB" lane="Douglas_to_Houston_0" pos="241.87" freq="300.00" file="NUL"/>
+    <e1Detector id="Houston_USD2-3-EB" lane="Lindsay_to_Houston_1" pos="104.64" freq="300.00" file="NUL"/>
+    <e1Detector id="Houston_USD2-4-EB" lane="Lindsay_to_Houston_0" pos="104.63" freq="300.00" file="NUL"/>
+    <e1Detector id="Houston_USD4-1-NB" lane="N_to_Houston_0" pos="110.58" freq="300.00" file="NUL"/>
+    <e1Detector id="Houston_USD4-2-SB" lane="S_to_Houston_0" pos="126.53" freq="300.00" file="NUL"/>
+    <e1Detector id="Lindsay_USD2-1-WB" lane="Houston_to_Lindsay_1" pos="106.58" freq="300.00" file="NUL"/>
+    <e1Detector id="Lindsay_USD2-2-WB" lane="Houston_to_Lindsay_0" pos="106.58" freq="300.00" file="NUL"/>
+    <e1Detector id="Lindsay_USD2-3-EB" lane="Georgia_to_Lindsay_1" pos="109.96" freq="300.00" file="NUL"/>
+    <e1Detector id="Lindsay_USD2-4-EB" lane="Georgia_to_Lindsay_0" pos="109.98" freq="300.00" file="NUL"/>
+    <e1Detector id="Lindsay_USD4-1-NB" lane="N_to_Lindsay_0" pos="110.29" freq="300.00" file="NUL"/>
+    <e1Detector id="Lindsay_USD4-2-SB" lane="S_to_Lindsay_0" pos="115.65" freq="300.00" file="NUL"/>
+    <e1Detector id="Magnolia_USD2-1-EB" lane="Peeples_to_Magnolia_1" pos="234.01" freq="300.00" file="NUL"/>
+    <e1Detector id="Magnolia_USD2-2-EB" lane="Peeples_to_Magnolia_0" pos="234.01" freq="300.00" file="NUL"/>
+    <e1Detector id="Magnolia_USD2-3-WB" lane="Central_to_Magnolia_0" pos="383.02" freq="300.00" file="NUL"/>
+    <e1Detector id="Magnolia_USD2-4-WB" lane="Central_to_Magnolia_1" pos="383.00" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD1-1-NB" lane="N_to_Market_2" pos="74.98" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD1-2-SB" lane="S_to_Market_2" pos="89.14" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD2-1-NB" lane="N_to_Market_1" pos="74.95" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD2-2-NB" lane="N_to_Market_0" pos="74.93" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD2-3-SB" lane="S_to_Market_1" pos="89.15" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD2-4-SB" lane="S_to_Market_0" pos="89.15" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD3-1-WB" lane="Georgia_to_Market_2" pos="66.29" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD3-2-EB" lane="Broad_to_Market_2" pos="55.03" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD4-1-WB" lane="Georgia_to_Market_1" pos="66.29" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD4-2-WB" lane="Georgia_to_Market_0" pos="66.29" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD4-3-EB" lane="Broad_to_Market_1" pos="55.05" freq="300.00" file="NUL"/>
+    <e1Detector id="Market_USD4-4-EB" lane="Broad_to_Market_0" pos="55.03" freq="300.00" file="NUL"/>
+    <e1Detector id="Peeples_USD2-1-WB" lane="Magnolia_to_Peeples_1" pos="236.85" freq="300.00" file="NUL"/>
+    <e1Detector id="Peeples_USD2-2-WB" lane="Magnolia_to_Peeples_0" pos="236.82" freq="300.00" file="NUL"/>
+    <e1Detector id="Peeples_USD2-3-EB" lane="Douglas_to_Peeples_0" pos="377.69" freq="300.00" file="NUL"/>
+    <e1Detector id="Peeples_USD4-1" lane="N_to_Peeples_0" pos="117.89" freq="300.00" file="NUL"/>
+</additional>

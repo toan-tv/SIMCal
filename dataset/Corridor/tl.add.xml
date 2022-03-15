@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-02-17 15:13:47 by Eclipse SUMO netedit Version 1.10.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/mnt/d/Research/ITSC%202022/SimCal/dataset/Corridor/testbed.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/mnt/d/Research/ITSC%202022/SimCal/dataset/Corridor/testbed.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <tlLogic id="Chestnut" type="actuated" programID="0" offset="54">
+        <phase duration="11" state="rrrrGrrrrrrrGGrr" minDur="4"/>
+        <phase duration="3" state="rrrryrrrrrrryyrr"/>
+        <phase duration="46" state="gGGGgrrrgGGGgrrr" minDur="8"/>
+        <phase duration="3" state="yyyyyrrrgyyyyrrr"/>
+        <phase duration="6" state="rrrrrGGGGrrrrrrr" minDur="4"/>
+        <phase duration="3" state="rrrrryGyyrrrrrrr"/>
+        <phase duration="23" state="rrrrrgGgrrrrrgGg" minDur="8"/>
+        <phase duration="3" state="rrrrryyyrrrrrgyy"/>
+    </tlLogic>
+    <tlLogic id="Chestnut" type="actuated" programID="1" offset="44">
+        <phase duration="11" state="rrrrGrrrrrrrGGrr" minDur="4"/>
+        <phase duration="3" state="rrrryrrrrrrryyrr"/>
+        <phase duration="30" state="gGGGgrrrgGGGgrrr" minDur="8"/>
+        <phase duration="3" state="yyyyyrrrgyyyyrrr"/>
+        <phase duration="10" state="rrrrrGGGGrrrrrrr" minDur="4"/>
+        <phase duration="3" state="rrrrryGyyrrrrrrr"/>
+        <phase duration="34" state="rrrrrgGgrrrrrgGg" minDur="8"/>
+        <phase duration="3" state="rrrrryyyrrrrrgyy"/>
+    </tlLogic>
+    <tlLogic id="Chestnut" type="actuated" programID="2" offset="54">
+        <phase duration="11" state="rrrrGrrrrrrrGGrr" minDur="4"/>
+        <phase duration="3" state="rrrryrrrrrrryyrr"/>
+        <phase duration="25" state="gGGGgrrrgGGGgrrr" minDur="8"/>
+        <phase duration="3" state="yyyyyrrrgyyyyrrr"/>
+        <phase duration="10" state="rrrrrGGGGrrrrrrr" minDur="4"/>
+        <phase duration="3" state="rrrrryGyyrrrrrrr"/>
+        <phase duration="34" state="rrrrrgGgrrrrrgGg" minDur="8"/>
+        <phase duration="3" state="rrrrryyyrrrrrgyy"/>
+    </tlLogic>
+    <tlLogic id="Chestnut" type="actuated" programID="3" offset="81">
+        <phase duration="11" state="rrrrGrrrrrrrGGrr" minDur="4"/>
+        <phase duration="3" state="rrrryrrrrrrryyrr"/>
+        <phase duration="25" state="gGGGgrrrgGGGgrrr" minDur="8"/>
+        <phase duration="3" state="yyyyyrrrgyyyyrrr"/>
+        <phase duration="20" state="rrrrrGGGGrrrrrrr" minDur="4"/>
+        <phase duration="3" state="rrrrryGyyrrrrrrr"/>
+        <phase duration="34" state="rrrrrgGgrrrrrgGg" minDur="8"/>
+        <phase duration="3" state="rrrrryyyrrrrrgyy"/>
+    </tlLogic>
+    <tlLogic id="Chestnut" type="actuated" programID="4" offset="54">
+        <phase duration="11" state="rrrrGrrrrrrrGGrr" minDur="4"/>
+        <phase duration="3" state="rrrryrrrrrrryyrr"/>
+        <phase duration="46" state="gGGGgrrrgGGGgrrr" minDur="8"/>
+        <phase duration="3" state="yyyyyrrrgyyyyrrr"/>
+        <phase duration="6" state="rrrrrGGGGrrrrrrr" minDur="4"/>
+        <phase duration="3" state="rrrrryGyyrrrrrrr"/>
+        <phase duration="23" state="rrrrrgGgrrrrrgGg" minDur="8"/>
+        <phase duration="3" state="rrrrryyyrrrrrgyy"/>
+    </tlLogic>
+
+    
+</additional>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+    <input>
+        <net-file value="testbed.net.xml"/>
+        <route-files value="05-11-21.route.xml"/>
+        <additional-files value="testbed_detector.add.xml"/>
+        <begin value="23400"/>
+        <end value="32400"/>
+    </input>
+	
+    <processing>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="50"/>        
+    </processing>
+	
+	<report>
+	    <no-warnings value="true"/>
+	    <xml-validation value="never"/>
+	</report>	
+</configuration>
