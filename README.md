@@ -42,3 +42,10 @@ Please refer to jupyter notebook files
     <td valign="top"><img src="/imgs/network_size_result-1.png"></td>
   </tr>
  </table>
+
+#### Citation
+Please find/cite our work:
+
+{
+  ....
+}
